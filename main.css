@@ -1,0 +1,110 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+nav {
+    /*  TODO */
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    padding: 10px;
+
+
+}
+.nav-left {
+    /*  TODO */
+    margin-left: 0.5em;
+    display: flex;
+    align-items: center;
+}
+.nav-right {
+    /*  TODO */ 
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-center {
+    /*  TODO */
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.nav-center input {
+    width: 90%;
+    padding: 9px;
+    border: 1px solid#ddd;
+    border-radius: 20px;
+}
+.nav-center i {
+    background: #f5ecec;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left:0.5em;
+}
+header {
+    width: 93%;
+    margin: auto;
+    margin-top: 16px;
+    padding: 10px;
+}
+header span {
+    padding: 10px;
+    background: #e2e0e0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.active {
+    background: #000;
+    color: #fff;
+
+}
+.video-container { 
+    /*  TODO */
+    display: flex;
+    flex-wrap:wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+.video {
+
+   /*  TODO */
+   width: 300px;
+   border: 1px solid #dddd
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 10px;
+   background-color: #fff;
+ 
+}
+.video-thumbnail img {
+   /*  TODO */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.video-text {
+  /*  TODO */
+  padding: 15px;
+  
+}
+
+.text {
+    line-height: 1.5;
+}
+.text p {
+    margin: 0;
+    margin-top: 10px;
+}
+.text p,
+.text span {
+    color: rgb(105, 102, 102);
+}
+.text strong {
+    font-weight: 500;
+}
